@@ -5,9 +5,11 @@ A go implementation of the Towers of Hanoi
 This program solves the Towers of Hanoi using an iterative solution
 
 ## Execution
-git run tower.go -size=6
+`go run tower.go -size=6`
 
 ## Example
+```
+$ go run tower.go -size=4
 Size of the tower: 4
 Left: 1:2:3:4:
 Center: 
@@ -70,3 +72,5 @@ End of loop
 Left: 
 Center: 
 Right: 1:2:3:4:
+```
+
